@@ -1,10 +1,11 @@
+// importing react & css
 import React from 'react';
 import "./index.css";
 
 export const Form = () => {
     return (
         <div className ="form">
-
+            {/* craeting input fields for the sign up form */}
             <form>
 
         <h1>Sign Up Here</h1>
@@ -24,12 +25,13 @@ export const Form = () => {
                 <input type = "password" required = "true" placeholder = "Password *" id = "password" className = "password" />
 
                 <input type = "password" required = "true" placeholder = "Confirm Password *" id = "confirmPassword" className = "confirmPassword" /><br/>
-                
-                Gender: 
+                 
+                <div className = "radio">
                 <label>Male</label> <input type = "radio" className = "male" value = "gender"/>
-                <label>Female</label> <input type = "radio" className = "female" value = "gender"/> <br/>
+                <label> Female</label> <input type = "radio" className = "female" value = "gender"/> <br/>
+                </div>
 
-                <centre><button>Sign UP</button></centre>
+                <input type="button" className="button" value="Sign Up"/>
 
         </form>
             
