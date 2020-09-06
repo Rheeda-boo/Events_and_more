@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import SignUp from './SignUp';
+
  
-// rendering app.js which comprices of welcome.js & form.js
+// rendering app.js which comprices of welcome.js & SignUpForm.js
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <SignUp />  
   </React.StrictMode>,
   document.getElementById('root')
 );
